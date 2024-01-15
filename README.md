@@ -1,6 +1,8 @@
 # BSQ - find the Biggest SQuare
 
 BSQ is an {Epitech} 1st year projet. It's part of the Elementary Programming in C module.
+
+**⚠️ If you're an Epitech student, be aware that copying any part of this code is considered cheating and would cause an -42!**
 <br>
 <br>
 
@@ -62,3 +64,172 @@ The BSQ program can also generate a map with 2 given parameters:
 - a pattern which will be repeat line by line
 <br>
 Then, the generated map is solved and displayed.
+<br>
+<br>
+
+## Tests results
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Percentage</th>
+      <th>Tests</th>
+      <th>Crash ?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Algorithm app. - Generating column</td>
+      <td>100%</td>
+      <td>3/3</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Algorithm app. - Generating edges</td>
+      <td>100%</td>
+      <td>2/2</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Algorithm app. - Generating line</td>
+      <td>100%</td>
+      <td>3/3</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Algorithm app. - Generating square</td>
+      <td>100%</td>
+      <td>3/3</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Algorithm app. - Opening column</td>
+      <td>100%</td>
+      <td>3/3</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Algorithm app. - Opening edges</td>
+      <td>100%</td>
+      <td>2/2</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Algorithm app. - Opening line</td>
+      <td>100%</td>
+      <td>3/3</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Algorithm app. - Opening rectangle</td>
+      <td>100%</td>
+      <td>3/3</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Basics</td>
+      <td>100%</td>
+      <td>6/6</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Data structure - Generating</td>
+      <td>100%</td>
+      <td>3/3</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Data structure - Opening</td>
+      <td>100%</td>
+      <td>3/3</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Optimization - Generating 100 to 500</td>
+      <td>100%</td>
+      <td>4/4</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Optimization - Generating 1000 to 2000</td>
+      <td>100%</td>
+      <td>2/2</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Optimization - Generating 5000 to 10000</td>
+      <td>100%</td>
+      <td>2/2</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Optimization - Opening 100 to 500</td>
+      <td>100%</td>
+      <td>4/4</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Optimization - Opening 1000 to 2000</td>
+      <td>100%</td>
+      <td>2/2</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Optimization - Opening 5000 to 10000</td>
+      <td>100%</td>
+      <td>2/2</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Parsing - Opening</td>
+      <td>100%</td>
+      <td>3/3</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Robustness - Generating empty map</td>
+      <td>100%</td>
+      <td>4/4</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Robustness - Generating filled map</td>
+      <td>100%</td>
+      <td>2/2</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Robustness - Generating valid board</td>
+      <td>60%</td>
+      <td>3/5</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Robustness - Opening empty map</td>
+      <td>100%</td>
+      <td>6/6</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Robustness - Opening filled map</td>
+      <td>100%</td>
+      <td>6/6</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Robustness - Opening valid file</td>
+      <td>60%</td>
+      <td>3/5</td>
+      <td>No</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>Total</th>
+      <th>95.1%</th>
+      <th>77/81</th>
+      <th>No</th>
+    </tr>
+  </tfoot>
+</table>
