@@ -61,7 +61,7 @@ And here is result of the program. It also appears as if it were displayed with 
 ```
 The BSQ program can also generate a map with 2 given parameters:
 - a number corresponding to the map's dimensions
-- a pattern which will be repeat line by line
+- a pattern of `.` and `o` to repeat line by line
 <br>
 Then, the generated map is solved and displayed.
 <br>
@@ -233,3 +233,53 @@ Then, the generated map is solved and displayed.
     </tr>
   </tfoot>
 </table>
+
+<br>
+
+## How to use
+
+### Requirements
+
+To use this program, you need to install some tools:
+- [GCC](https://gcc.gnu.org/)
+- [GNU Make](https://www.gnu.org/software/make/)
+
+<br>
+
+### Usages
+
+Here are commands you should paste in the terminal that browses the source files directory.\
+<br>
+To compile the program:
+```
+make
+```
+To re-compile the program:
+```
+make re
+```
+To solve a map:
+```
+./bsq <map_to_solve_path>
+```
+```
+./bsq example_files/maps/intermediate_map_1000_1000
+```
+To generate a map and solve it:
+```
+./bsq <size_of_map> <pattern>
+```
+```
+./bsq 10 oo...o.
+```
+```
+./bsq 50 ...o..ooo.
+```
+To remove all object files:
+```
+make clean
+```
+To remove the program binary and object files:
+```
+make fclean
+```
