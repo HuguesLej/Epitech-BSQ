@@ -5,7 +5,7 @@
 ** Replaces the dots of the square found by x
 */
 
-#include "include/include.h"
+#include "include.h"
 
 void replace_square(char **file_array, int const *point)
 {

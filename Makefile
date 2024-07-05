@@ -5,14 +5,14 @@
 ## Builds the my_ls program
 ##
 
-SRC	=	main.c				\
-		open_file.c			\
-		map_generator.c		\
-		error_handler.c		\
-		buffer_handler.c	\
-		str_to_array.c		\
-		square_finder.c		\
-		replace_square.c
+SRC	=	src/main.c				\
+		src/open_file.c			\
+		src/map_generator.c		\
+		src/error_handler.c		\
+		src/buffer_handler.c	\
+		src/str_to_array.c		\
+		src/square_finder.c		\
+		src/replace_square.c
 
 OBJ	=	$(SRC:@.c=.o)
 
@@ -25,7 +25,7 @@ NAME	=	bsq
 all:	$(NAME)
 
 $(NAME):	$(OBJ)
-		@gcc -o $(NAME) $(OBJ)
+		@gcc -o $(NAME) $(OBJ) $(CFLAGS)
 		@echo -e "\033[1;33m"$(NAME) "successfully build\033[0m"
 
 clean:

@@ -5,7 +5,7 @@
 ** Opens a file and set file descriptor and stat structure
 */
 
-#include "include/include.h"
+#include "include.h"
 
 void open_file(int const ac, char **av, int *fd, int *file_size)
 {

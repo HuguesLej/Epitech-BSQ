@@ -5,7 +5,7 @@
 ** Generates a map based on given parameters
 */
 
-#include "include/include.h"
+#include "include.h"
 
 void convert_pattern_to_map(char **map, int const dim, char const *pattern)
 {

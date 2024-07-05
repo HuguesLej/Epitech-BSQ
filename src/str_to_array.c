@@ -6,7 +6,7 @@
 ** an array which contains them
 */
 
-#include "include/include.h"
+#include "include.h"
 
 void str_to_array(char const *buff, char **file_array, int const *dim, int i)
 {

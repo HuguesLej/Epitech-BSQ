@@ -5,7 +5,7 @@
 ** Handles errors
 */
 
-#include "include/include.h"
+#include "include.h"
 
 void read_error(int const read_size, char *buff)
 {

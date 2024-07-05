@@ -5,7 +5,7 @@
 ** Handles the buffer which contains the map
 */
 
-#include "include/include.h"
+#include "include.h"
 
 void buffer_handler(char const *buff)
 {

@@ -5,7 +5,7 @@
 ** Find the biggest square in the buff map
 */
 
-#include "include/include.h"
+#include "include.h"
 
 bool is_an_obstacle(char c)
 {
