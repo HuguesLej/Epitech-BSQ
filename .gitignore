@@ -1,0 +1,6 @@
+bsq
+*.o
+*.gcno
+*.gcda
+build/
+.vscode/
