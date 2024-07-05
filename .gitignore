@@ -4,3 +4,4 @@ bsq
 *.gcda
 build/
 .vscode/
+*.log
