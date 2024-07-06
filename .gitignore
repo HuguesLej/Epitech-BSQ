@@ -3,5 +3,6 @@ bsq
 *.gcno
 *.gcda
 build/
+coverage/
 .vscode/
 *.log
