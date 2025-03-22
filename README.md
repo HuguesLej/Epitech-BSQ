@@ -1,6 +1,6 @@
 # BSQ - find the Biggest SQuare
 
-BSQ is an {Epitech} 1st year projet. It's part of the Elementary Programming in C module.
+BSQ is an {Epitech} 1st year project. It's part of the Elementary Programming in C module.
 
 **⚠️ If you're an Epitech student, be aware that copying any part of this code is considered cheating and would cause an -42!**
 <br>
